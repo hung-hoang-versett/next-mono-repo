@@ -8,16 +8,6 @@ export interface ButtonProps {
   buttonType?: string;
   onClick?: (event: React.MouseEvent<HTMLButtonElement>) => void;
 }
-export const Button: React.FC<ButtonProps> = ({
-  className,
-  id,
-  onClick,
-  buttonType,
-  ...props
-}) => {
-  return (
-    <button id={id} {...props} onClick={onClick}>
-      {props.children}
-    </button>
-  );
+export const Button: React.FC<ButtonProps> = (props) => {
+  return <button {...props}>{props.children}</button>;
 };

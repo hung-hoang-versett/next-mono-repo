@@ -8,9 +8,9 @@
     "build": "lerna run --parallel build"
   },
   "devDependencies": {
-    "lerna": "^4.0.0",
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.2",
+    "lerna": "^4.0.0",
     "typescript": "4.4.4"
   },
   "dependencies": {
@@ -18,9 +18,9 @@
     "@types/node": "^16.11.0",
     "@types/react": "^17.0.30",
     "@zeit/next-typescript": "^1.1.1",
+    "next": "11.1.2",
     "next-transpile-modules": "^8.0.0",
     "npm-run-all": "^4.1.5",
-    "next": "11.1.2",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   }

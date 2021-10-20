@@ -21,7 +21,8 @@
     "next": "11.1.2",
     "next-transpile-modules": "^8.0.0",
     "nexus": "^1.1.0",
-    "shared": "^1.0.0"
+    "shared": "^1.0.0",
+    "swr": "^1.0.1"
   },
   "devDependencies": {
     "@types/micro-cors": "^0.1.2"

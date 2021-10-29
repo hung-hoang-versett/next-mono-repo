@@ -12,7 +12,6 @@ import {
   AuthenticatedTemplate,
   UnauthenticatedTemplate,
 } from "@azure/msal-react";
-import { typeFormAuthorizeUri } from "typeFormConfig/authConfig";
 const SignInButton = () => {
   const { instance } = useMsal();
 
@@ -115,9 +114,6 @@ const Home: NextPage<{
       <main className={styles.main}>
         {/* azure */}
         <SignInSignOutButton />
-        <Button>
-          <a href={typeFormAuthorizeUri}>Login typeform.com!</a>
-        </Button>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>

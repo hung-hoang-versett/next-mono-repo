@@ -9,6 +9,7 @@ const AzureActiveDirectoryAppRedirectUri: any =
 export const msalConfig: Configuration = {
   auth: {
     clientId: AzureActiveDirectoryAppClientId,
+    // authority: `https://login.microsoftonline.com/common`,
     authority: `https://login.microsoftonline.com/${AzureActiveDirectoryAppTenantId}`,
     redirectUri: AzureActiveDirectoryAppRedirectUri,
     postLogoutRedirectUri: "/",

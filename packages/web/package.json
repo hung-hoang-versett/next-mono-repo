@@ -6,7 +6,7 @@
   "scripts": {
     "build:nexus-typegen": "ts-node --compiler-options '{\"module\":\"CommonJS\"}' --transpile-only schema",
     "dev": "next dev",
-    "build": "npm run build:nexus-typegen && next build",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
